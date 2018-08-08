@@ -3,10 +3,10 @@ class Author
 
   def initialize(name)
     @name = name
-    @posts = []
+    @posts = [] # has many posts
   end
 
-  def add_post(post)
+  def add_post(post) # takes an arguement of a post
 
 
   end
