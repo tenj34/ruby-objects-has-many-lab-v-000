@@ -9,4 +9,9 @@ class Song
     self.artist == nil ? nil : self.artist.name
   end
 
+  def self.all
+
+    @@all
+  end
+
 end
