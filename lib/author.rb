@@ -7,7 +7,7 @@ class Author
   end
 
   def add_post(post) # takes an arguement of a post
-    post.author = self # associates with the author by telling the post that it belongs to the authro
+    post.author = self # associates with the author by telling the post that it belongs to the author
 
   end
 
