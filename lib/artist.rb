@@ -22,8 +22,6 @@ class Artist
   end
 
   def self.song_count
-    Song.all.count
+    Song.all.count # here we are reaching out to the song class act method to count
   end
-
-
 end
